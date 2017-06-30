@@ -48,7 +48,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 .header{
-	background:url(../images/bg.jpg) top center no-repeat;
+	background:url('https://ooo.0o0.ooo/2017/06/30/59566270d84a1.jpg') top center no-repeat;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -379,7 +379,7 @@ header h6{
 }
 .clients
 {
-	background-image: url(../images/bg1.jpg);
+	background-image: url('https://ooo.0o0.ooo/2017/06/30/5956620c8ff38.jpg');
 }
 .clients h3 {
 	color: #FFF;
