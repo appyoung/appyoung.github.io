@@ -171,8 +171,8 @@ header h6{
 }
 .logo {
 	float: left;
-	padding: 1.5em 0em;
-	width: 120px;
+	padding: 1em 0em 0em 0em;
+	width: 140px;
 }
 .navigation a {
 	text-transform: uppercase;
@@ -883,10 +883,10 @@ button::-moz-focus-inner {
 
 .no-touch .cs-style-5 figure:hover img,
 .cs-style-5 figure.cs-hover img {
-	-webkit-transform: scale(0.4);
-	-moz-transform: scale(0.4);
-	-ms-transform: scale(0.4);
-	transform: scale(0.4);
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
 }
 
 .cs-style-5 figcaption {
@@ -894,10 +894,10 @@ button::-moz-focus-inner {
 	width: 100%;
 	opacity: 0;
 	filter: alpha(opacity=0);
-	-webkit-transform: scale(0.7);
-	-moz-transform: scale(0.7);
-	-ms-transform: scale(0.7);
-	transform: scale(0.7);
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -971,9 +971,9 @@ button::-moz-focus-inner {
 }
 .address
 {
-	float:right;
-	width: 35%;
-	margin: 2em 3em 2em 0em;
+	float:left;
+/*	width: 35%;*/
+	margin: 2em 3em 2em 3em;
 }
 .address h3
 {
@@ -1364,7 +1364,7 @@ button::-moz-focus-inner {
 	}
 	.header_toggle {
 	right: 0px;
-	padding: 1.5em 1em;
+	padding: 0em 1em;
 	}
 	.top-grid {
 	width: 100%;
