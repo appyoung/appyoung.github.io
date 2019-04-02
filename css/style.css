@@ -1526,6 +1526,11 @@ button::-moz-focus-inner {
 	}
 }
 
+
+
+@media screen and (min-width: 768px) 
+{
+
 .kefu {
 	background-color: #52a7fa;
 	border: 2px solid #fff;
@@ -1541,11 +1546,16 @@ button::-moz-focus-inner {
 	font-size: 14px;
 	z-index: 99999
 }
+}
  @media(max-width:768px) {
 .kefu {
-	top: 108px
+	top: 108px;
+	display:none;
 }
 }
+
+@media screen and (min-width: 768px) 
+{
 .kefu ul {
 	margin: 0;
 	padding-top: 45px
@@ -1633,4 +1643,5 @@ button::-moz-focus-inner {
 	margin: 0!important;
 	text-indent: -9999;
 	overflow: hidden
+}
 }
