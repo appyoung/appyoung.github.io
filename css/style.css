@@ -177,9 +177,9 @@ header h6{
 .navigation a {
 	text-transform: uppercase;
 	color: #747474;
-	font-size: 14px;
+	/*font-size: 14px;*/
 	text-decoration: none;
-	padding: 1.5em 1em;
+	padding: 1.5em 0.5em;
 	display:block;
 }
 
@@ -1118,10 +1118,10 @@ button::-moz-focus-inner {
 	padding: 11px 10px;
 	}
 	#container > li:nth-child(10),li:nth-child(9) {
-	display: none;
+	/*display: none;*/
 	}
 	#container {
-	height: 550px !important;
+	/*height: 550px !important;*/
 	}
 }
 @media screen and (max-width: 1280px) 
@@ -1187,7 +1187,7 @@ button::-moz-focus-inner {
 	font-size: 1.2em;
 	}
 	#container {
-	height: 535px !important;
+	/*height: 535px !important;*/
 	}
 	.sub_grid p {
 	width: 100%;
@@ -1258,7 +1258,7 @@ button::-moz-focus-inner {
 	display: none;
 	}
 	.top-grid:nth-child(1),.grid_of_1:nth-child(4),.grid1:nth-child(3),.grid1:nth-child(6){
-	display: none;
+	/*display: none;*/
 	}
 	.top-grid {
 	width: 47.9%;
@@ -1318,7 +1318,7 @@ button::-moz-focus-inner {
 	width: 200px;
 	}
 	header h1 {
-	font-size: 17px;
+	font-size: 26px;
 	}
 	header p {
 	font-size: 0.9em;
@@ -1331,7 +1331,7 @@ button::-moz-focus-inner {
 	width: 27%;
 	}
 	 .grid1:nth-child(2), .grid1:nth-child(4) {
-	display: none;
+	/*display: none;*/
 	}
 	.grid1 {
 	width: 47.5%;
@@ -1524,4 +1524,113 @@ button::-moz-focus-inner {
 	.contact-member {
 	display: none;
 	}
+}
+
+.kefu {
+	background-color: #52a7fa;
+	border: 2px solid #fff;
+	position: fixed;
+	width: 80px;
+	top: 138px;
+	right: 15px;
+	text-align: center;
+	display: block;
+	-webkit-box-shadow: 0 0 12px rgba(0,0,0,0.1);
+	box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+	border-radius: 0 0 8px 8px;
+	font-size: 14px;
+	z-index: 99999
+}
+ @media(max-width:768px) {
+.kefu {
+	top: 108px
+}
+}
+.kefu ul {
+	margin: 0;
+	padding-top: 45px
+}
+.kefu ul li a {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	border-top: 1px solid #FFF;
+	overflow: hidden;
+	height: auto;
+	width: 100%;
+	padding-top: 43px;
+	padding-right: 0;
+	padding-bottom: 12px;
+	padding-left: 0
+}
+.kefu ul li a:hover {
+	background-color: #52a7fa;
+}
+.kefu a.kefu-lx {
+	background-image: url(../images/kefu.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: absolute;
+	top: -40px;
+	text-indent: -9999px;
+	height: 80px;
+	width: 80px;
+	z-index: 999999;
+	left: -2px;
+	border-width: 0;
+	overflow: hidden
+}
+.kefu a.kefu-lx:hover {
+	background-color: rgba(255,255,255,0)
+}
+.kefu ul li a.kf {
+	display: block;
+	padding: 10px 0
+}
+.kefu:hover ul li a.kf {
+	display: block
+}
+.kefu ul li a.kefu-yy {
+	background-image: url(../images/kefu-tb.png);
+	background-repeat: no-repeat;
+	background-position: center -9px
+}
+.kefu ul li a.kefu-zx {
+	background-image: url(../images/kefu-tb.png);
+	background-repeat: no-repeat;
+	background-position: center -79px
+}
+.kefu ul li a.kefu-di {
+	background-image: url(../images/kefu-tb.png);
+	background-repeat: no-repeat;
+	background-position: center -227px;
+	padding: 30px 0 10px 0;
+	border-radius: 0 0 8px 8px
+}
+.kefu ul li a.kefu-top {
+	background-image: url(../images/kefu-tb.png);
+	background-repeat: no-repeat;
+	background-position: center -154px;
+	padding: 30px 0 10px 0
+}
+.kefu ul li a.kefu-yy, .kefu ul li a.kefu-zx, .kefu ul li a.kefu-di, .kefu ul li a.kefu-top {
+	display: block
+}
+.kefu:hover ul li a.kefu-yy, .kefu:hover ul li a.kefu-zx, .kefu:hover ul li a.kefu-di, .kefu:hover ul li a.kefu-top {
+	display: block
+}
+.bdshare-button-style2-16 .bds_more {
+	float: none!important
+}
+.bdshare-button-style2-16 a, .bdshare-button-style2-16 .bds_more {
+	float: none!important;
+	padding-left: 0!important;
+	line-height: 0!important;
+	height: 18px!important;
+	width: 18px!important;
+	background-image: none!important;
+	_background-image: none!important;
+	margin: 0!important;
+	text-indent: -9999;
+	overflow: hidden
 }
