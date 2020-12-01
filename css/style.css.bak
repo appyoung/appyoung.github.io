@@ -1676,7 +1676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	border: 2px solid #fff;
 	position: fixed;
 	width: 80px;
-	top: 438px;
+	top: 338px;
 	right: 15px;
 	text-align: center;
 	display: block;
